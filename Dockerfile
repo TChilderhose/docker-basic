@@ -5,6 +5,7 @@ LABEL maintainer="tchilderhose"
 RUN apk update && \
     apk add --no-cache \
     bash \
+    linux-headers g++ make perl diffutils \
     curl bind-tools \
     python3 py3-pip \
     tzdata && \
